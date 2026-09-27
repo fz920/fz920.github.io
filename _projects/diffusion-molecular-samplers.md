@@ -7,7 +7,7 @@ importance: 2
 category: research
 ---
 
-As a Research Assistant at Cambridge, I designed diffusion-based samplers for molecular energy functions under Prof. Jose Miguel Hernandez-Lobato.
+As a Research Assistant at Cambridge, I designed diffusion-based samplers for molecular energy functions under [Prof. José Miguel Hernández-Lobato](https://jmhl.org/).
 
 Early experiments halved sampling time compared with a denoising diffusion probabilistic model (DDPM) baseline.
 

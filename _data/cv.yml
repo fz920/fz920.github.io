@@ -5,7 +5,11 @@ cv:
   phone: "+44 7421 727 978"
   location: Cambridge, UK
   image: ""
-  summary: PhD student at the Gatsby Computational Neuroscience Unit, supervised by Prof. Arthur Gretton and fully funded by Jump Trading. Research interests include generative modelling, variational inference, and probabilistic machine learning.
+  summary: >-
+    PhD student at the [Gatsby Computational Neuroscience Unit](https://www.ucl.ac.uk/life-sciences/gatsby),
+    supervised by [Prof. Arthur Gretton](https://www.gatsby.ucl.ac.uk/~gretton/) and fully funded by
+    [Jump Trading](https://www.jumptrading.com/signals/jump-trading-partners-with-ucls-gatsby-computational-neuroscience-unit).
+    Research interests include generative modelling, variational inference, and probabilistic machine learning.
 
   social_networks:
     - network: GitHub
@@ -16,11 +20,12 @@ cv:
   sections:
     Education:
       - institution: Gatsby Computational Neuroscience Unit
+        url: https://www.ucl.ac.uk/life-sciences/gatsby
         studyType: PhD
         date: Present
         highlights:
-          - "Supervisor: Prof. Arthur Gretton"
-          - Fully funded by Jump Trading.
+          - "Supervisor: [Prof. Arthur Gretton](https://www.gatsby.ucl.ac.uk/~gretton/)"
+          - Fully funded by [Jump Trading](https://www.jumptrading.com/signals/jump-trading-partners-with-ucls-gatsby-computational-neuroscience-unit).
 
       - institution: University of Cambridge
         location: Cambridge, UK
@@ -63,7 +68,7 @@ cv:
         location: Cambridge, UK
         start_date: 2024-10
         end_date: 2025
-        summary: "Supervisor: Prof. Jose Miguel Hernandez-Lobato"
+        summary: "Supervisor: [Prof. José Miguel Hernández-Lobato](https://jmhl.org/)"
         highlights:
           - Designed diffusion-based generative samplers for molecular energy functions; early experiments halved sampling time versus baseline DDPM.
 
