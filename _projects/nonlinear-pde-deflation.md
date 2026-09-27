@@ -7,6 +7,6 @@ importance: 4
 category: numerical-methods
 ---
 
-This Imperial College London group project implemented sparse Jacobian-Newton deflation in Julia.
+In a group project at Imperial College London, I implemented sparse Jacobian-Newton deflation in Julia to find multiple solutions to nonlinear partial differential equations (PDEs).
 
-The implementation achieved a 3x speedup and uncovered five distinct solutions to a challenging 3-D nonlinear PDE.
+The implementation achieved a 3× speedup and found five distinct solutions to a three-dimensional nonlinear PDE.

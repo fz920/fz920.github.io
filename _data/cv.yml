@@ -1,18 +1,27 @@
 cv:
   name: Fengzhe Zhang
-  label: Incoming PhD Student
+  label: PhD Student, Gatsby Computational Neuroscience Unit
   email: fz287@cam.ac.uk
   phone: "+44 7421 727 978"
   location: Cambridge, UK
   image: ""
-  summary: Incoming PhD student at the Gatsby Computational Neuroscience Unit working on generative modelling, variational inference, diffusion-based samplers, and probabilistic machine learning.
+  summary: PhD student at the Gatsby Computational Neuroscience Unit, supervised by Prof. Arthur Gretton and fully funded by Jump Trading. Research interests include generative modelling, variational inference, and probabilistic machine learning.
 
   social_networks:
     - network: GitHub
       username: fz920
+    - network: LinkedIn
+      username: fengzhe-zhang
 
   sections:
     Education:
+      - institution: Gatsby Computational Neuroscience Unit
+        studyType: PhD
+        date: Present
+        highlights:
+          - "Supervisor: Prof. Arthur Gretton"
+          - Fully funded by Jump Trading.
+
       - institution: University of Cambridge
         location: Cambridge, UK
         area: Machine Learning and Machine Intelligence
@@ -45,6 +54,10 @@ cv:
           - Methods for Data Science
 
     Experience:
+      - company: Jump Trading
+        position: Intern
+        date: Jul–Sep 2026
+
       - company: University of Cambridge
         position: Research Assistant
         location: Cambridge, UK

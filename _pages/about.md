@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Incoming PhD student, Gatsby Computational Neuroscience Unit
+subtitle: PhD student, Gatsby Computational Neuroscience Unit
 
 profile: false
 
@@ -20,8 +20,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am an incoming PhD student at the Gatsby Computational Neuroscience Unit, working on machine learning, generative modelling, variational inference, diffusion-based samplers, and probabilistic machine learning.
+I am a PhD student at the Gatsby Computational Neuroscience Unit, supervised by Prof. Arthur Gretton. My PhD is fully funded by Jump Trading.
 
-Previously, I was a Research Assistant at the University of Cambridge, supervised by Prof. Jose Miguel Hernandez-Lobato, where I worked on diffusion-based generative samplers for molecular energy functions. I completed an MPhil in Machine Learning and Machine Intelligence at Cambridge with Distinction, and a BSc in Mathematics at Imperial College London with First Class Honours.
+My research interests include generative modelling, variational inference, and probabilistic machine learning. My previous work combined consistency models and importance sampling to sample Boltzmann distributions efficiently.
 
-My recent work studies how consistency models and importance sampling can make sampling from Boltzmann distributions more efficient without introducing bias. I am especially interested in methods that make generative models useful as scientific computing tools: faster samplers, better uncertainty handling, and algorithms that connect statistical modelling with physical systems.
+I interned at Jump Trading from July to September 2026. Previously, I worked on diffusion-based molecular samplers as a Research Assistant at the University of Cambridge, supervised by Prof. Jose Miguel Hernandez-Lobato.
+
+I hold an MPhil in Machine Learning and Machine Intelligence from Cambridge (Distinction) and a BSc in Mathematics from Imperial College London (First Class Honours).

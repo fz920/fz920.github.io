@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Fengzhe Zhang",
-    "label": "Incoming PhD Student",
+    "label": "PhD Student, Gatsby Computational Neuroscience Unit",
     "image": "",
     "email": "fz287@cam.ac.uk",
     "phone": "+44 7421 727 978",
-    "summary": "Incoming PhD student at the Gatsby Computational Neuroscience Unit working on generative modelling, variational inference, diffusion-based samplers, and probabilistic machine learning.",
+    "summary": "PhD student at the Gatsby Computational Neuroscience Unit, supervised by Prof. Arthur Gretton and fully funded by Jump Trading. Research interests include generative modelling, variational inference, and probabilistic machine learning.",
     "location": {
       "city": "Cambridge",
       "countryCode": "UK"
@@ -15,10 +15,22 @@
         "network": "GitHub",
         "username": "fz920",
         "url": "https://github.com/fz920"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "fengzhe-zhang",
+        "url": "https://www.linkedin.com/in/fengzhe-zhang/"
       }
     ]
   },
   "work": [
+    {
+      "name": "Jump Trading",
+      "position": "Intern",
+      "startDate": "2026-07",
+      "endDate": "2026-09",
+      "date": "Jul–Sep 2026"
+    },
     {
       "name": "University of Cambridge",
       "position": "Research Assistant",
@@ -26,10 +38,18 @@
       "startDate": "2024-10",
       "endDate": "2025",
       "summary": "Supervisor: Prof. Jose Miguel Hernandez-Lobato",
-      "highlights": ["Designed diffusion-based generative samplers for molecular energy functions; early experiments halved sampling time versus baseline DDPM."]
+      "highlights": [
+        "Designed diffusion-based generative samplers for molecular energy functions; early experiments halved sampling time versus baseline DDPM."
+      ]
     }
   ],
   "education": [
+    {
+      "institution": "Gatsby Computational Neuroscience Unit",
+      "studyType": "PhD",
+      "date": "Present",
+      "highlights": ["Supervisor: Prof. Arthur Gretton", "Fully funded by Jump Trading."]
+    },
     {
       "institution": "University of Cambridge",
       "area": "Machine Learning and Machine Intelligence",
