@@ -48,7 +48,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-efficient-boltzmann-sampling",
           title: 'Efficient Boltzmann Sampling',
-          description: "Consistency models with importance sampling for efficient, unbiased Boltzmann distributions.",
+          description: "Efficient sampling from Boltzmann distributions using consistency models and importance sampling.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/boltzmann-consistency-models/";
             },},{id: "projects-constrain-kl-for-variational-autoencoders",
@@ -91,6 +91,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://github.com/fz920", "_blank");
+        },
+      },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/fengzhe-zhang", "_blank");
         },
       },{
       id: 'light-theme',
