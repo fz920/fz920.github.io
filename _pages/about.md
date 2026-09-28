@@ -22,10 +22,8 @@ latest_posts:
 
 I am a PhD student at the [Gatsby Computational Neuroscience Unit](https://www.ucl.ac.uk/life-sciences/gatsby), supervised by [Prof. Arthur Gretton](https://www.gatsby.ucl.ac.uk/~gretton/). My PhD is fully funded by [Jump Trading](https://www.jumptrading.com/signals/jump-trading-partners-with-ucls-gatsby-computational-neuroscience-unit).
 
-My research interests include generative modelling, variational inference, and probabilistic machine learning. My previous work combined consistency models and importance sampling to sample Boltzmann distributions efficiently.
+My research interests include generative modelling, variational inference, and probabilistic machine learning. I have worked on few-step generative models and efficient Boltzmann generators.
 
-I interned at Jump Trading from July to September 2026. Previously, I worked on diffusion-based molecular samplers as a Research Assistant at the University of Cambridge, supervised by [Prof. José Miguel Hernández-Lobato](https://jmhl.org/).
-
-I also previously conducted research with [Dr. Yingzhen Li](https://yingzhenli.net/home/en/).
+I interned at Jump Trading from July to September 2026. Previously, I worked on diffusion-based molecular samplers as a research assistant at the University of Cambridge, supervised by [Prof. José Miguel Hernández-Lobato](https://jmhl.org/). As an undergraduate, I worked with [Dr. Yingzhen Li](https://yingzhenli.net/home/en/) on variational autoencoders (VAEs).
 
 I hold an MPhil in Machine Learning and Machine Intelligence from Cambridge (Distinction) and a BSc in Mathematics from Imperial College London (First Class Honours).

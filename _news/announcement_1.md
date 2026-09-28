@@ -1,6 +1,8 @@
 ---
 layout: post
-date: 2024-10-01 09:00:00+0000
+# Start month from the 2026 CV; the day is only for sorting.
+date: 2024-11-01
+date_format: "%b %Y"
 inline: true
 related_posts: false
 ---

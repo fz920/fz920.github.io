@@ -1,15 +1,15 @@
 cv:
   name: Fengzhe Zhang
   label: PhD Student, Gatsby Computational Neuroscience Unit
-  email: fz287@cam.ac.uk
+  email: fengzhe.zhang.26@ucl.ac.uk
   phone: "+44 7421 727 978"
-  location: Cambridge, UK
+  location: London, UK
   image: ""
   summary: >-
     PhD student at the [Gatsby Computational Neuroscience Unit](https://www.ucl.ac.uk/life-sciences/gatsby),
     supervised by [Prof. Arthur Gretton](https://www.gatsby.ucl.ac.uk/~gretton/) and fully funded by
     [Jump Trading](https://www.jumptrading.com/signals/jump-trading-partners-with-ucls-gatsby-computational-neuroscience-unit).
-    Research interests include generative modelling, variational inference, and probabilistic machine learning.
+    Research interests include generative models and causal inference.
 
   social_networks:
     - network: GitHub
@@ -21,11 +21,16 @@ cv:
     Education:
       - institution: Gatsby Computational Neuroscience Unit
         url: https://www.ucl.ac.uk/life-sciences/gatsby
+        location: London, UK
+        area: Machine Learning and Computational Neuroscience
         studyType: PhD
-        date: Present
+        start_date: 2026-10
+        end_date: present
+        date: Oct 2026–Present
         highlights:
           - "Supervisor: [Prof. Arthur Gretton](https://www.gatsby.ucl.ac.uk/~gretton/)"
           - Fully funded by [Jump Trading](https://www.jumptrading.com/signals/jump-trading-partners-with-ucls-gatsby-computational-neuroscience-unit).
+          - "Expected completion: September 2030."
 
       - institution: University of Cambridge
         location: Cambridge, UK
@@ -33,7 +38,7 @@ cv:
         studyType: MPhil
         start_date: 2023-10
         end_date: 2024-09
-        score: Distinction, 79.9%
+        score: Distinction, 79.87%; ranked 4th out of 36 students.
         courses:
           - Probabilistic ML
           - Deep Learning
@@ -48,7 +53,7 @@ cv:
         studyType: BSc
         start_date: 2020-10
         end_date: 2023-06
-        score: First Class Honours, 88.4%; top 4%
+        score: First Class Honours, 88.41%; ranked 10th out of 251 students.
         courses:
           - Applied Probability
           - Optimisation
@@ -60,34 +65,40 @@ cv:
 
     Experience:
       - company: Jump Trading
-        position: Intern
+        position: Member of Technical Staff Intern
         date: Jul–Sep 2026
+        summary: "Mentors: Loren Puchalla Fiore and Léo Heidelberger"
+        highlights:
+          - Conducted research in deep learning and alpha modelling.
 
       - company: University of Cambridge
         position: Research Assistant
         location: Cambridge, UK
-        start_date: 2024-10
-        end_date: 2025
+        start_date: 2024-11
+        end_date: 2025-11
+        date: Nov 2024–Nov 2025
         summary: "Supervisor: [Prof. José Miguel Hernández-Lobato](https://jmhl.org/)"
         highlights:
-          - Designed diffusion-based generative samplers for molecular energy functions; early experiments halved sampling time versus baseline DDPM.
+          - Developed and applied diffusion models and normalising flows to improve the efficiency and accuracy of molecular sampling.
 
       - company: University of Cambridge
-        position: "MPhil Research Project: Efficient and Unbiased Sampling of Boltzmann Distributions"
+        position: MPhil Dissertation
         location: Cambridge, UK
         start_date: 2024-04
         end_date: 2024-08
+        summary: "Supervisor: [Prof. José Miguel Hernández-Lobato](https://jmhl.org/)"
         highlights:
-          - Reduced number of function evaluations from 100 to 6-25 while preserving effective sample size on synthetic and equivariant n-body systems by integrating Consistency Models with importance sampling.
+          - Developed a framework combining consistency models with importance sampling for molecular energy functions, achieving an approximately 4× sampling speedup over DDPM baselines.
+          - Dissertation awarded Distinction.
 
       - company: Imperial College London
         position: Undergraduate Research Assistant
         location: London, UK
         start_date: 2023-07
         end_date: 2023-10
-        summary: Constrained Optimisation in Variational Autoencoders
+        summary: "Supervisor: [Dr. Yingzhen Li](https://yingzhenli.net/home/en/)"
         highlights:
-          - Eliminated hyper-parameter sweeps in beta-VAE by introducing the Constrain-KL algorithm, which enforces an exact KL target and matched NVAE accuracy on CIFAR-10.
+          - Proposed and evaluated a method for directly controlling KL divergence during VAE training, eliminating beta-parameter sweeps across multiple VAE architectures.
 
       - company: Imperial College London
         position: Group Project
@@ -105,10 +116,16 @@ cv:
         start_date: 2022-10
         end_date: 2023-04
         highlights:
-          - Led tutorials for 40 first-year students in Probability, Analysis, and Calculus; cohort average improved by 15 percentage points.
-          - Mentored Numerical Analysis students on Julia implementations and debugging.
+          - Led first-year tutorials in probability, analysis, and calculus.
+          - Supported second-year numerical analysis teaching and Julia programming.
 
     Awards:
+      - title: Jump Trading Scholarship
+        date: 2026
+        awarder: Jump Trading
+        summary: Sole recipient in the cohort.
+        url: https://www.jumptrading.com/signals/jump-trading-partners-with-ucls-gatsby-computational-neuroscience-unit
+
       - title: Dean's List
         date: 2023
         awarder: Imperial College London
@@ -124,17 +141,34 @@ cv:
         summary: Awarded for outstanding second-year group project.
 
     Publications:
+      - title: Efficient and Unbiased Sampling from Boltzmann Distributions via Variance-Tuned Diffusion Models
+        authors:
+          - Fengzhe Zhang
+          - Laurence I. Midgley
+          - José Miguel Hernández-Lobato
+        publisher: Transactions on Machine Learning Research (TMLR)
+        releaseDate: 2025
+        url: https://openreview.net/forum?id=Jq2dcMCS5R
+        summary: Journal-to-Conference certification; poster presented at ICML 2026 in the Journal-to-Conference track.
+
       - title: Efficient and Unbiased Sampling of Boltzmann Distributions via Consistency Models
         authors:
           - Fengzhe Zhang
-          - J. He
-          - L. Midgley
-          - J. Antoran
-          - J. M. Hernandez-Lobato
-        publisher: ML for Physical Sciences at NeurIPS 2024
+          - Jiajun He
+          - Laurence I. Midgley
+          - Javier Antorán
+          - José Miguel Hernández-Lobato
+        publisher: Machine Learning and the Physical Sciences Workshop, NeurIPS 2024
         releaseDate: 2024
         url: /publications/#zhang2024efficient
-        summary: First-author workshop publication on combining consistency models with importance sampling for efficient Boltzmann sampling.
+        summary: Equal contribution with Jiajun He.
+
+      - title: Sampling of Molecular Energy Functions via Consistency Models
+        authors:
+          - Fengzhe Zhang
+        publisher: MPhil dissertation, University of Cambridge
+        releaseDate: 2024
+        url: https://www.mlmi.eng.cam.ac.uk/files/2023-2024/zhang_efficient_2024.pdf
 
     Skills:
       - name: Programming
@@ -162,6 +196,6 @@ cv:
 
     Projects:
       - name: Efficient and Unbiased Sampling of Boltzmann Distributions
-        summary: Integrated consistency models with importance sampling to reduce function evaluations from 100 to 6-25 while preserving effective sample size.
+        summary: Combined consistency models with importance sampling for molecular energy functions, achieving an approximately 4× sampling speedup over DDPM baselines.
       - name: Constrain-KL for beta-VAE
         summary: Developed a constrained optimisation approach to set exact KL targets and avoid beta sweeps in variational autoencoders.

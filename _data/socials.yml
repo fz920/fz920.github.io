@@ -1,8 +1,8 @@
 # this file contains the social media links and usernames of the author
 # the socials will be displayed in the order they are defined here
 # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
-cv_pdf: /assets/pdf/Fengzhe_Zhang_CV.pdf # path to your CV PDF file
-email: fz287@cam.ac.uk # your email address
+cv_pdf: /assets/pdf/Fengzhe_Zhang_CV_2026.pdf # path to your CV PDF file
+email: fengzhe.zhang.26@ucl.ac.uk # your email address
 github_username: fz920
 linkedin_username: fengzhe-zhang
 # wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)

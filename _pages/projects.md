@@ -3,7 +3,7 @@ layout: page
 title: projects
 permalink: /projects/
 description: Selected research projects in generative modelling, probabilistic ML, and numerical methods.
-nav: true
+nav: false # Set to true to show this page in the navigation again.
 nav_order: 3
 display_categories: [research, numerical-methods, teaching]
 horizontal: false
