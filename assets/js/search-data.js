@@ -16,20 +16,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-projects",
-          title: "projects",
-          description: "Selected research projects in generative modelling, probabilistic ML, and numerical methods.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/projects/";
-          },
-        },{id: "nav-repositories",
-          title: "repositories",
-          description: "GitHub profile and selected repositories.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/repositories/";
-          },
         },{id: "nav-cv",
           title: "CV",
           description: "Academic CV and selected research experience.",
@@ -46,8 +32,14 @@ ninja.data = [{
           section: "News",},{id: "news-first-author-work-on-efficient-and-unbiased-boltzmann-sampling-appeared-at-ml-for-physical-sciences-at-neurips-2024",
           title: 'First-author work on efficient and unbiased Boltzmann sampling appeared at ML for Physical...',
           description: "",
-          section: "News",},{id: "news-our-paper-on-efficient-boltzmann-sampling-was-accepted-by-transactions-on-machine-learning-research-tmlr-and-received-journal-to-conference-certification-i-later-presented-it-as-a-poster-at-icml-2026",
-          title: 'Our paper on efficient Boltzmann sampling was accepted by Transactions on Machine Learning...',
+          section: "News",},{id: "news-our-paper-on-variance-tuned-diffusion-models-for-efficient-boltzmann-sampling-was-published-in-transactions-on-machine-learning-research-tmlr-and-received-journal-to-conference-certification",
+          title: 'Our paper on variance-tuned diffusion models for efficient Boltzmann sampling was published in...',
+          description: "",
+          section: "News",},{id: "news-presented-our-tmlr-paper-on-variance-tuned-diffusion-models-as-a-poster-at-icml-2026-in-seoul",
+          title: 'Presented our TMLR paper on variance-tuned diffusion models as a poster at ICML...',
+          description: "",
+          section: "News",},{id: "news-started-my-phd-at-the-gatsby-computational-neuroscience-unit",
+          title: 'Started my PhD at the Gatsby Computational Neuroscience Unit.',
           description: "",
           section: "News",},{id: "projects-efficient-boltzmann-sampling",
           title: 'Efficient Boltzmann Sampling',
@@ -79,14 +71,14 @@ ninja.data = [{
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/Fengzhe_Zhang_CV.pdf", "_blank");
+          window.open("/assets/pdf/Fengzhe_Zhang_CV_2026.pdf", "_blank");
         },
       },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%66%7A%32%38%37@%63%61%6D.%61%63.%75%6B", "_blank");
+          window.open("mailto:%66%65%6E%67%7A%68%65.%7A%68%61%6E%67.%32%36@%75%63%6C.%61%63.%75%6B", "_blank");
         },
       },{
         id: 'social-github',
