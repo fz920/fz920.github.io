@@ -67,13 +67,6 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/teaching-assistantship/";
             },},{
-        id: 'social-cv',
-        title: 'CV',
-        section: 'Socials',
-        handler: () => {
-          window.open("/assets/pdf/Fengzhe_Zhang_CV_2026.pdf", "_blank");
-        },
-      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
